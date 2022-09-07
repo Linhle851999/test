@@ -1,0 +1,124 @@
+:root{
+    --font-size: 10px
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.section{
+    display: flex;
+    gap: 10px;
+    margin-top: 78px;
+    margin-left: 63px;
+}
+.group-container{
+    background: #F3F5F8;
+    width: 179px;
+    min-height: 720px;
+    margin-top: 9px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.day-week{
+    color: #6A7988;
+    font-weight: 600;
+    font-size: var(--font-size);
+    line-height: 14px;
+}
+.day{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 9.42px;
+}
+.workout{
+    width: 165px;
+    margin: 5px 7px 0px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 6px;
+}
+.flex-workout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+}
+.name-workout{
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #5A57CB;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+.flex-workout i{
+    cursor: pointer;
+    font-size: 11px;
+    color: #C4C4C4;;
+}
+.group-exercise{
+    width: 159px;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin: 4px 3px;
+}
+.name-exercise{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 30px;
+    text-align: right;
+}
+.exercise{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 8px 5px;
+}
+.number{
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 14px;
+    color: #919CAD;
+}
+.information{
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 14px;
+    color: #95A6B7;
+    max-width: 115px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.icon-add{
+    text-align: right;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.fa-plus{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A0A8B1;
+    color: #fff;
+    font-size: var(--font-size);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
